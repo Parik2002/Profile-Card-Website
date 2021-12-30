@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
+  background: url("mountain-blur.png") top left no-repeat;
+  border-radius: 12px 12px 0 0;
+  background-size: cover;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 24em;
+  z-index: 2;
+  background-color: #fff;
+  border: 4px solid #fff;
+  border-radius: 12px;
+  margin-top: 3em;
+  box-shadow: 2px 2px 10px grey;
+}
+.container:hover{
+  box-shadow: 4px 4px 20px grey;
+}
+
+.back{
+  width: 24em;
+}
+
+.topimage{
+  position: relative;
+}
+
+.profile {
+  width: 7em;
+  position: absolute;
+  top: 80%;
+  left: 34%;
+  border: 4px solid #fff;
+  border-radius: 50%;
+}
+
+.name{
+  margin-top: 2.3em;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  color: grey;
+}
+.details{
+  padding: 1em;
+  width: 15em;
+  text-align: center;
+  margin-top: -2em;
+  font-family: 'Lato', sans-serif;
+  color: grey;
+  font-weight: bold;
+}
+
+.icon{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 0.3em;
+}
+.twitter{
+  height: 2em;
+  transition: width 1s, height 1s;
+}
+.twitter:hover {
+  width: 2.5em;
+  height: 2.5em;
+  transition-timing-function: ease;
+}
+.linkedin{
+  height: 2em;
+}
+.linkedin:hover {
+  width: 2.5em;
+  height: 2.5em;
+  transition-timing-function: ease;
+}
+.facebook{
+  height: 2em;
+}
+.facebook:hover {
+  width: 2.5em;
+  height: 2.5em;
+  transition-timing-function: ease;
+}
